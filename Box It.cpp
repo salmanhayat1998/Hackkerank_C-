@@ -3,7 +3,7 @@
 using namespace std;
 class Box{
   public:
-  int l,b,h;
+  unsigned long int l,b,h;
   public:
   
   // Default Operator

@@ -1,2 +1,2 @@
-# Hackkerank_C-
+# Hackkerank_C++
 #Hacker rank C++ Programs Solutions

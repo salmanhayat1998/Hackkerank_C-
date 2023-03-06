@@ -11,20 +11,26 @@ int main()
 {
     int q=0;
     cin>>q;
-    set<int>s;
+    // if(cin.fail())
+    // {
+    //  cin.clear();
+    //  cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    //  cout<<"invalid input please re-enter: ";
+    //  cin>>q;
+    // }
+    set<int> s;
     for (int i=0; i<q; i++)
     {
-        int x,y=0;
-        cin>>y;        
-        cin>>x;
-
-        switch (y) {
+        int x,y;
+        cin>>y>>x;        
+        switch (y)
+         {
         
         case 1:
         s.insert(x);
         break;
         case 2:
-        s.erase(s.find(x));
+        s.erase((x));
         break;
         case 3:
         if(s.find(x) != s.end())
